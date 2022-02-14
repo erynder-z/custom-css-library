@@ -3,11 +3,11 @@ const sass = require('gulp-sass')(require('sass'));
 
 //compile scss to css-folder
 function buildStyles() {
-  return src('index.scss').pipe(sass()).pipe(dest('css'));
+  return src('*.scss').pipe(sass()).pipe(dest('css'));
 }
 
 function watchTask() {
-  watch(['index.scss'], buildStyles);
+  watch(['*.scss'], buildStyles);
 }
 
 exports.default = series(buildStyles, watchTask);
