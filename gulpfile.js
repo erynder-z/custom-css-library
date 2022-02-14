@@ -3,11 +3,11 @@ const sass = require('gulp-sass')(require('sass'));
 
 //compile scss to css-folder
 function buildStyles() {
-  return src('*.scss').pipe(sass()).pipe(dest('css'));
+  return src('eryngi/**/*.scss').pipe(sass()).pipe(dest('css'));
 }
 
 function watchTask() {
-  watch(['*.scss'], buildStyles);
+  watch(['eryngi/**/*.scss'], buildStyles);
 }
 
 exports.default = series(buildStyles, watchTask);
