@@ -100,43 +100,43 @@ img {
   }
 }
 .text-primary {
-  color: #326dee;
+  color: steelblue;
 }
 
 .bg-primary {
-  background-color: #326dee;
+  background-color: steelblue;
 }
 
 .bg-primary-light-2 {
-  background-color: #5b8af1;
+  background-color: #6b9bc3;
 }
 
 .bg-primary-light-4 {
-  background-color: #84a7f5;
+  background-color: #90b4d2;
 }
 
 .bg-primary-light-6 {
-  background-color: #adc5f8;
+  background-color: #b5cde1;
 }
 
 .bg-primary-light-8 {
-  background-color: #d6e2fc;
+  background-color: #dae6f0;
 }
 
 .bg-primary-dark-2 {
-  background-color: #2857be;
+  background-color: #386890;
 }
 
 .bg-primary-dark-4 {
-  background-color: #1e418f;
+  background-color: #2a4e6c;
 }
 
 .bg-primary-dark-6 {
-  background-color: #142c5f;
+  background-color: #1c3448;
 }
 
 .bg-primary-dark-8 {
-  background-color: #0a1630;
+  background-color: #0e1a24;
 }
 
 .text-secondary {
@@ -245,13 +245,13 @@ img {
 
 .card {
   display: block;
-  padding: 0.75rem;
-  border: 1px solid #ddd;
+  padding: 1rem;
+  border: 3px solid #ddd;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .card .card-title {
   font-size: 1.5rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: 1rem;
   font-weight: bold;
   border-radius: 5px;
 }
@@ -267,7 +267,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #e2e2e2;
 }
@@ -277,12 +277,12 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
-  background-color: #326dee;
+  background-color: steelblue;
 }
 .btn-primary:hover {
-  background-color: #4a7ef0;
+  background-color: #568ebd;
 }
 
 .btn-complement-primary {
@@ -290,14 +290,14 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
-  background-color: #326dee;
-  color: #f8dfa8;
+  background-color: steelblue;
+  color: #dabaa0;
 }
 .btn-complement-primary:hover {
-  color: #326dee;
-  background-color: #f8dfa8;
+  color: steelblue;
+  background-color: #dabaa0;
 }
 
 .btn-secondary {
@@ -305,7 +305,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #1ac888;
 }
@@ -318,10 +318,10 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #ffffff;
-  border: 1px solid #1ac888;
+  border: 3px solid #1ac888;
 }
 .btn-outlined-secondary:hover {
   background-color: #1ac888;
@@ -332,7 +332,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #d32752;
 }
@@ -345,7 +345,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #f6c31c;
 }
@@ -358,10 +358,10 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #ffffff;
-  border: 1px solid #ffa600;
+  border: 3px solid #ffa600;
 }
 .btn-outlined-orange:hover {
   background-color: #ffa600;
@@ -372,10 +372,10 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #ffffff;
-  border: 1px solid #9900ff;
+  border: 3px solid #9900ff;
 }
 .btn-outlined-purple:hover {
   background-color: #9900ff;
@@ -386,7 +386,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: #9900ff;
   color: #b3ff80;
@@ -405,14 +405,14 @@ img {
 }
 
 .navbar, .navbar-primary {
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .navbar .side-title, .navbar-primary .side-title {
   font-size: 1.5rem;
 }
 .navbar-primary {
-  background-color: #326dee;
+  background-color: steelblue;
 }
 
 .p-0 {
@@ -420,19 +420,19 @@ img {
 }
 
 .pt-3 {
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 
 .pt-4 {
-  padding-top: 4.5rem;
+  padding-top: 6rem;
 }
 
 .pb-3 {
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
 
 .pb-4 {
-  padding-bottom: 4.5rem;
+  padding-bottom: 6rem;
 }
 
 .m-1 {
